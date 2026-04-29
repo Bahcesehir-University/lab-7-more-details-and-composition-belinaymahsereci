@@ -51,6 +51,7 @@ topLeft.display();
 std::cout<<", Bottom Right: ";
 bottomRight.display();
 std::cout<<std::endl;}
+
     // TODO 11: declare isSameSize as friend function
     friend bool isSameSize(const Rectangle& r1, const Rectangle& r2);
 };
@@ -58,7 +59,7 @@ std::cout<<std::endl;}
 
 // TODO 12: implement isSameSize
 bool isSameSize(const Rectangle& r1, const Rectangle& r2) {
-    return (r1.getArea() && r2. getArea());   // stub
+    return (r1.getArea() == r2. getArea());   // stub
 }
 
 
